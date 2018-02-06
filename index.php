@@ -21,17 +21,17 @@ and open the template in the editor.
                         <h1>Preinscrpción</h1>
                         <form action="index.php">
                             <div class="input-field col s4">
-                                <input type="text" id="nombre">
+                                <input type="text" id="nombre" name="Apallido Paterno">
                                 <label for="nombre">Apallido Paterno</label>
                             </div> 
 
                             <div class="input-field col s4">
-                                <input type="text" id="Apellido Paterno">
+                                <input type="text" id="Apellido Paterno" name="Apellido Materno">
                                 <label for="nombre">Apellido Materno</label>
                             </div> 
 
                             <div class="input-field col s4">
-                                <input type="text" id="Apellido Materno"> 
+                                <input type="text" id="Apellido Materno" name="Nombre"> 
                                 <label for="nombre">Nombre</label>
                             </div> 
 
@@ -49,33 +49,33 @@ and open the template in the editor.
                             </div>
 
                             <div class="input-field col s4">
-                                <input type="text" id="Estado"> 
+                                <input type="text" id="Estado" name="estado"> 
                                 <label for="nombre">Estado</label>
                             </div>
 
                             <div class="input-field col s4">
-                                <input type="text" id="Municipio"> 
+                                <input type="text" id="Municipio" name="Municipio"> 
                                 <label for="nombre">Municipio</label>
                             </div>
 
                             <div class="input-field col s4">
-                                <input type="text" id="Colonia"> 
+                                <input type="text" id="Colonia" name="Colonia"> 
                                 <label for="nombre">Colonia</label>
                             </div> 
                             <div class="input-field col s4">
-                                <input type="text" id="Numero Interior"> 
+                                <input type="number" id="Numero Interior" name="Numero Interior"> 
                                 <label for="nombre">Numero Interior</label>
                             </div>
                             <div class="input-field col s4">
-                                <input type="text" id="Numero Exterior"> 
+                                <input type="number" id="Numero Exterior" name="Numero Exterior"> 
                                 <label for="nombre">Numero Exterior</label>
                             </div>
                             <div class="input-field col s4">
-                                <input type="text" id="calle"> 
+                                <input type="text" id="calle" name="Calle"> 
                                 <label for="nombre">Calle</label>
                             </div>
                             <div class="input-field col s4">
-                                <input type="text" id="Telefono"> 
+                                <input type="number" id="Telefono" name="Telefono"> 
                                 <label for="nombre">Telefono</label>
                             </div>
                             <div class="browser-default col s4"> 
@@ -109,29 +109,28 @@ and open the template in the editor.
                         <h1>Datos de Tutor</h1>
                         <form action="#">
                             <div class="input-field col s4">
-                                <input type="text" id="nombre">
+                                <input type="text" id="nombre" name="Apallido Paterno">
                                 <label for="nombre">Apallido Paterno</label>
                             </div> 
 
                             <div class="input-field col s4">
-                                <input type="text" id="Apellido Paterno">
+                                <input type="text" id="Apellido Paterno" name="Apellido Maternob">
                                 <label for="nombre">Apellido Materno</label>
                             </div> 
 
                             <div class="input-field col s4">
-                                <input type="text" id="Apellido Materno"> 
+                                <input type="text" id="Apellido Materno"n  name="Nombre"> 
                                 <label for="nombre">Nombre</label>
                             </div> 
 
                             <div class="input-field col s4">
-                                <input id="email" type="email" class="validate">
+                                <input id="email" type="email" class="validate" name="Email">
                                 <label for="email">Email</label>
                             </div>
-
-                            <div class="browser-default col s4"> 
-                                <label>Edad</label>
-                                <select class="browser-default">                                                                 
-                                </select>
+                            
+                           <div class="input-field col s4">
+                               <input type="number" id="Telefono" name="Edad"> 
+                                <label for="nombre">Edad</label>
                             </div>
 
                             <div class="browser-default col s4"> 
@@ -144,33 +143,33 @@ and open the template in the editor.
                             </div>
 
                             <div class="input-field col s4">
-                                <input type="text" id="Estado"> 
+                                <input type="text" id="Estado" name="Estado"> 
                                 <label for="nombre">Estado</label>
                             </div>
 
                             <div class="input-field col s4">
-                                <input type="text" id="Municipio"> 
+                                <input type="text" id="Municipio" name="Municipio"> 
                                 <label for="nombre">Municipio</label>
                             </div>
 
                             <div class="input-field col s4">
-                                <input type="text" id="Colonia"> 
+                                <input type="text" id="Colonia" name="colonia"> 
                                 <label for="nombre">Colonia</label>
                             </div> 
                             <div class="input-field col s4">
-                                <input type="text" id="Numero Interior"> 
+                                <input type="number" id="Numero Interior" name="Nunero Interior"> 
                                 <label for="nombre">Numero Interior</label>
                             </div>
                             <div class="input-field col s4">
-                                <input type="text" id="Numero Exterior"> 
+                                <input type="number" id="Numero Exterior" name="Nunero Exterior"> 
                                 <label for="nombre">Numero Exterior</label>
                             </div>
                             <div class="input-field col s4">
-                                <input type="text" id="calle"> 
+                                <input type="text" id="calle" name="Calle"> 
                                 <label for="nombre">Calle</label>
                             </div>
                             <div class="input-field col s4">
-                                <input type="text" id="Telefono"> 
+                                <input type="number" id="Telefono" name="Telefono"> 
                                 <label for="nombre">Telefono</label>
                             </div>
 
